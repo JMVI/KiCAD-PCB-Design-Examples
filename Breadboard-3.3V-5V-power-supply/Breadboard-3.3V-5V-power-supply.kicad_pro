@@ -512,14 +512,27 @@
       "/PWR_IN": "Power_input",
       "/PWR_OUT": "Power_output"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power_input",
+        "pattern": "/USB_IN"
+      },
+      {
+        "netclass": "Power_output",
+        "pattern": "/PWR_OUT_TOP"
+      },
+      {
+        "netclass": "Power_output",
+        "pattern": "/PWR_OUT_BOTTOM"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Breadboard-3.3V-5V-power-supply-Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

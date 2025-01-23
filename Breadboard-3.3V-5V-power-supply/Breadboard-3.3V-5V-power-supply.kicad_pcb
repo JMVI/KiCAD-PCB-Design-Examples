@@ -4284,7 +4284,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J5"
-			(at 6.5994 5.3674 90)
+			(at -1.621 -5.2658 90)
 			(layer "F.SilkS")
 			(uuid "1c51102b-1ab8-4dc0-8b79-202edf10e65f")
 			(effects

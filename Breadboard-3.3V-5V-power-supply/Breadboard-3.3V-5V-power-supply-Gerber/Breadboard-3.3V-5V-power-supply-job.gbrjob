@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.8"
     },
-    "CreationDate": "2025-01-22T21:37:19-04:00"
+    "CreationDate": "2025-01-22T22:14:07-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,47 +34,47 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-F_Cu.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-B_Cu.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-F_Paste.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-B_Paste.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-F_Silkscreen.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-B_Silkscreen.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-F_Mask.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-B_Mask.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Breadboard-3.3V-5V-power-supply-Edge_Cuts.gbr",
+      "Path": "Breadboard-3.3V-5V-power-supply-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

@@ -9,7 +9,7 @@
 		(date "2025-01-27")
 		(rev "1")
 		(company "Jaime M. Villegas I.")
-		(comment 1 "MCU Datalogger with 512KB EEPROM and Real-Time clock.")
+		(comment 1 "MCU Datalogger with 512KB EEPROM and Real-Time clock. 2-Layers PCB")
 	)
 	(lib_symbols
 		(symbol "ATMEGA328P-AU:ATMEGA328P-AU"
@@ -2959,6 +2959,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 40.64) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f81327d-2f4a-43ff-bfae-3dc1b66bc242")
+	)
+	(wire
+		(pts
 			(xy 31.75 148.59) (xy 52.07 148.59)
 		)
 		(stroke
@@ -3336,16 +3346,6 @@
 			(type default)
 		)
 		(uuid "9f7b129f-74a9-4579-a934-104f06438adc")
-	)
-	(wire
-		(pts
-			(xy 130.81 40.64) (xy 151.13 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0fe7b46-7a71-4516-ae25-ac1f1c08b7f4")
 	)
 	(wire
 		(pts
@@ -3994,6 +3994,16 @@
 			(justify right bottom)
 		)
 		(uuid "5d66c381-c08a-4d48-98db-26a10324e8b7")
+	)
+	(label "VCC"
+		(at 132.08 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e257ac2-b08a-4709-98bf-f3987f3ee26a")
 	)
 	(label "MOSI"
 		(at 208.28 119.38 180)
@@ -7340,7 +7350,7 @@
 			(uuid "cdd2a6ad-829f-4cd3-8aa0-6dd50ae52585")
 		)
 		(instances
-			(project "ATMega328P-512K-Datalogger"
+			(project "ATMega328P-512K-Datalogger-2L"
 				(path "/d3a6f664-3766-4096-848b-593b90000507"
 					(page "2")
 				)

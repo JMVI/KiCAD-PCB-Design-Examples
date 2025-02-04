@@ -2534,12 +2534,6 @@
 		)
 	)
 	(junction
-		(at 151.13 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02bfa172-8455-417c-bb67-f875f06c2683")
-	)
-	(junction
 		(at 105.41 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3895,6 +3889,16 @@
 		)
 		(uuid "11968ca3-6377-417a-b089-e5a0f7ee4b57")
 	)
+	(label "SCK"
+		(at 208.28 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1763c30b-9957-4247-b41e-37c9a1bde466")
+	)
 	(label "D4"
 		(at 102.87 58.42 0)
 		(effects
@@ -4195,7 +4199,7 @@
 		)
 		(uuid "ba058d13-3763-49cc-9dbc-c32259a8f47c")
 	)
-	(label "SCL"
+	(label "SCK"
 		(at 72.39 60.96 180)
 		(effects
 			(font
@@ -6007,72 +6011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 151.13 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bde7b10f-8bfd-4d27-a712-80f90130e504")
-		(property "Reference" "#FLG01"
-			(at 151.13 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 151.13 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 151.13 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3583e202-81e5-4605-9b42-ebe3c4d232ac")
-		)
-		(instances
-			(project ""
-				(path "/d3a6f664-3766-4096-848b-593b90000507"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 259.08 38.1 0)
 		(unit 1)
@@ -7348,6 +7286,16 @@
 				(justify left)
 			)
 			(uuid "cdd2a6ad-829f-4cd3-8aa0-6dd50ae52585")
+		)
+		(pin "SCK" passive
+			(at 208.28 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6abe00ee-17fb-450f-8586-a854cf0a6f76")
 		)
 		(instances
 			(project "ATMega328P-512K-Datalogger-2L"

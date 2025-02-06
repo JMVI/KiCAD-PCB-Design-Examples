@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "ATMEGA328P-AU")(type "KiCad")(uri "${KIPRJMOD}/lib/ATMEGA328P-AU")(options "")(descr ""))
   (lib (name "DS1337S_")(type "KiCad")(uri "${KIPRJMOD}/lib/DS1337S_")(options "")(descr ""))
+  (lib (name "JMVI-LOGO")(type "KiCad")(uri "${KIPRJMOD}/lib/LOGO")(options "")(descr ""))
 )

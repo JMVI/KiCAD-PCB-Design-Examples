@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ScrewHoles")(type "KiCad")(uri "${KIPRJMOD}/lib/ScrewHoles/ScrewHoles.pretty")(options "")(descr ""))
+)
